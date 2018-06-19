@@ -11,7 +11,7 @@ Supports setting VersionInfoVersion field in Inno Setup script files (ISS) so yo
 (eg. C:\Program Files\Microsoft SDKs\Windows\v7.0\Bin).<br/>
 <br/>
 2. Add a command to the post-build event in your project, eg.:<br/>
->AutoVer.exe "$(TargetPath)" /p<br/>
-<br/>
+>AutoVer.exe "$(TargetPath)" /p
+<br>
 Optional */p* command line switch must follow respective file path:<br/>
->AutoVer.exe <file1> /p <file2> /p  ... <fileN> /p<br/>
+>AutoVer.exe <file1> /p <file2> /p  ... <fileN> /p
