@@ -16,4 +16,4 @@ Supports setting VersionInfoVersion field in Inno Setup script files (ISS) so yo
 
 Optional */p* command line switch must follow respective file path:
 
->AutoVer.exe <file1> /p <file2> /p  ... <fileN> /p
+>AutoVer.exe \<file1> /p \<file2> /p  ... \<fileN> /p
